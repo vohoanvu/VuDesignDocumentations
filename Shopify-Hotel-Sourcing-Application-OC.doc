@@ -1,0 +1,584 @@
+Date: Sun, 6 Mar 2022 11:04:53 +0000 (UTC)
+Message-ID: <2094403596.295.1646564693766@9a150e620240>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_294_2131825226.1646564693765"
+
+------=_Part_294_2131825226.1646564693765
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Hotel Sourcing Application (Mock Project for .NET Core practice)=
+</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Hotel Sourcing Application (Mock Project for .NET Core practice)</h=
+1>
+    <div class=3D"Section1">
+        <p>The following document describes the requirement specifications =
+for an OTA Inventory Sourcing Application. This small personal project serv=
+es as an educational exercise/mock project to learn .NET Core Web Api, that=
+ is also solving a real-world problem.</p>
+<div class=3D"plugin-tabmeta-details">
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"a63d2c72-565a-4e6a-8b05-93f=
+56c7d77a4" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 365.0px;">
+<col style=3D"width: 394.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>Target release</p></th>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p>Epic</p></th>
+<td class=3D"confluenceTd"><p><a href=3D"https://smartdevllc.atlassian.net/=
+browse/SDT-2" data-card-appearance=3D"inline" class=3D"external-link" rel=
+=3D"nofollow">https://smartdevllc.atlassian.net/browse/SDT-2</a> </p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p>Document status</p></th>
+<td class=3D"confluenceTd"><p> <span class=3D"status-macro aui-lozenge aui-=
+lozenge-current">ACTIVE</span></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p>Document owner</p></th>
+<td class=3D"confluenceTd"><p><a class=3D"confluence-userlink user-mention =
+current-user-mention" data-username=3D"607d32da2ad11c00727c44ff" data-accou=
+nt-id=3D"607d32da2ad11c00727c44ff" href=3D"https://smartdevllc.atlassian.ne=
+t/wiki/people/607d32da2ad11c00727c44ff?ref=3Dconfluence" target=3D"_blank" =
+data-linked-resource-id=3D"2057764866" data-linked-resource-version=3D"1" d=
+ata-linked-resource-type=3D"userinfo" data-base-url=3D"https://smartdevllc.=
+atlassian.net/wiki">SMD193-Vu Vo</a></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p>Project Management Link</p></th>
+<td class=3D"confluenceTd"><p><a href=3D"https://smartdevllc.atlassian.net/=
+browse/OCIS0-15" data-card-appearance=3D"inline" class=3D"external-link" re=
+l=3D"nofollow">https://smartdevllc.atlassian.net/browse/OCIS0-15</a> </p></=
+td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p>Tech lead</p></th>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p>Technical writers</p></th>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p>QA</p></th>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<h2 id=3D"HotelSourcingApplication(MockProjectfor.NETCorepractice)-Objectiv=
+e">Objective</h2>
+<p>One Centricity(OC) is an OTA website, built with Shopify, that connects =
+customers within self-care life-style community to travel destinations, hea=
+lth and wellness providers in California and Mexico. </p>
+<p>One Centricity is currently having a problem with their supply of hotel =
+inventories in southern California and Mexican border areas. They basically=
+ don=E2=80=99t have enough properties listings over there that are also ali=
+gned with their brand mission. They decided to make use of bed bank APIs pr=
+ovided by 3rd party company named HotelBeds, which is a wholesaler business=
+ that purchases rooms from accommodation providers in a bulk at a discounte=
+d price for specific dates and sells them to OTAs, travel agents, airlines,=
+ or tour operators. </p>
+<p>As a result, I=E2=80=99ve been hired as freelance developer to help OC d=
+evelop a web application that can automatically source product/inventories =
+from hotelBeds API, and then import them into One Centricity product catalo=
+g, all in real time, using Shopify Admin API.</p>
+<h2 id=3D"HotelSourcingApplication(MockProjectfor.NETCorepractice)-Successm=
+etrics">Success metrics</h2>
+<p>The ultimate goal here is to programmatically import inventory data, inc=
+luding static and dynamic content, into One Centricity product database. </=
+p>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"fe55d7a9-ff54-4d6b-be27-adb=
+e96a7d5b6" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 335.0px;">
+<col style=3D"width: 424.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>Goal</p></th>
+<th class=3D"confluenceTh"><p>Metric</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>Fill up OC hotel inventory</p></td>
+<td class=3D"confluenceTd"><p>There are at least 173,000 products/services =
+in OC coming from hotelBeds</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p>As the current Hotelbeds accommodation portfo=
+lio is comprised of 173000 hotels approximately, for the initial load of th=
+e database 173 requests would be needed to get all the information, definin=
+g the first and last hotel in each request in the&nbsp;<em>from</em>&nbsp;a=
+nd&nbsp;<em>to</em>&nbsp;parameters:</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"HotelSourcingApplication(MockProjectfor.NETCorepractice)-Assumpti=
+ons">Assumptions</h2>
+<p></p>
+<ul>
+<li><p>Merchant will only see the hotel listing data being displayed inside=
+ Shopify Admin console.</p></li>
+<li><p>There are no graphical user interface needed to trigger the import o=
+f hotel data.</p></li>
+<li><p>The execution of exporting and importing process will be represented=
+ as a set of <strong>.NET 5 web services</strong> (.NET Core Web API)</p></=
+li>
+<li><p>HotelBeds REST API documentation is provided here (<a href=3D"https:=
+//developer.hotelbeds.com/" data-card-appearance=3D"inline" class=3D"extern=
+al-link" rel=3D"nofollow">https://developer.hotelbeds.com/</a> )</p></li>
+<li><p>HotelBeds provides 3 suites of API (Hotels, Activities, Transfers). =
+In the scope of this project, the developer will use <strong>Hotels APIs su=
+ite</strong>.</p></li>
+<li><p>In order to send request, developer needs to get api key, secret, an=
+d X-Signature from my hotelBeds account. X-Signature value will be calculat=
+ed from api key and secret, using <strong>the provided script</strong>.</p>=
+</li>
+<li><p>The API key provided will only give me access to hotelBeds' test env=
+ironment, with a limited allowed quota of <strong>50 requests per day</stro=
+ng>.</p></li>
+<li><p>Inside Hotels API suite, there are 3 types: <strong>BookingAPI</stro=
+ng> (covering the complete booking process), <strong>ContentAPI</strong> (r=
+eturning static information needed for BookingAPI), <strong>CacheAPI </stro=
+ng>(saving data in zip files and return them upon request). The data saved =
+in Shopify should be <em>a combination</em> of these 3 response results. Ho=
+wever, for the scope of this project, developer can use only ContentAPI and=
+ BookingAPI.</p></li>
+<li><p>ContentAPI <strong>cannot</strong> be used to retrieve <strong>stati=
+c</strong> information in real-time. This could result in the blocking of c=
+redentials. HotelBeds recommends that users should set up a <strong>batch p=
+rocess</strong> to retrieve the info from them on a periodic basis, and a <=
+strong>database</strong> on their side to store the retrieved information a=
+nd be able to use it when needed.</p></li>
+<li><p>Shopify provides access to REST Admin API and GraphQL Admin API, whi=
+ch can be used to access the store inventory information. For the scope of =
+this project, we will use <strong>GraphQL Admin API</strong> because it sup=
+port bulk product operations. Documentation is provided here (<a href=3D"ht=
+tps://shopify.dev/api/admin" data-card-appearance=3D"inline" class=3D"exter=
+nal-link" rel=3D"nofollow">https://shopify.dev/api/admin</a> )</p></li>
+<li><p>Shopify Admin API enforces <strong>rate limits</strong> on all reque=
+st, so responsible API calls in the code should be taken into consideration=
+. (<a href=3D"https://shopify.dev/api/usage/rate-limits" data-card-appearan=
+ce=3D"inline" class=3D"external-link" rel=3D"nofollow">https://shopify.dev/=
+api/usage/rate-limits</a> )</p></li>
+<li><p>For now, OC should only contain hotel listings from the following de=
+stinations in USA:</p>
+<ul>
+<li><p>San Diego, Los Angeles, San Francisco, Joshua Trees, Big Sur, Malibu=
+, Santa Barbara</p></li>
+</ul></li>
+<li><p>For now, OC should only contain hotel listings from the following de=
+stinations in Mexico:</p>
+<ul>
+<li><p>Cancun, Holbox, Tulum, Puerto Vallanta, Sayulita, Nayrit, Baja Ca, P=
+uerto To Escodido, Oxcaca, San Migule, Mexico City, Rivera Maya</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"HotelSourcingApplication(MockProjectfor.NETCorepractice)-Mileston=
+es">Milestones</h2>
+<p></p>
+<p></p>
+<h2 id=3D"HotelSourcingApplication(MockProjectfor.NETCorepractice)-Requirem=
+ents">Requirements</h2>
+<p>.NET Core Web Api Swagger interface should expose web services that supp=
+orts the following use cases:</p>
+<div class=3D"table-wrap">
+<table data-layout=3D"full-width" data-local-id=3D"ec224ced-6da7-422a-bc84-=
+a576ab57413f" class=3D"confluenceTable">
+<colgroup>
+<col>
+<col style=3D"width: 395.0px;">
+<col style=3D"width: 1007.0px;">
+<col style=3D"width: 151.0px;">
+<col style=3D"width: 120.0px;">
+<col style=3D"width: 85.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"numberingColumn confluenceTh"></th>
+<th class=3D"confluenceTh"><p>Requirement</p></th>
+<th class=3D"confluenceTh"><p>User Story</p></th>
+<th class=3D"confluenceTh"><p>Importance</p></th>
+<th class=3D"confluenceTh"><p>Jira Issue</p></th>
+<th class=3D"confluenceTh"><p>Notes</p></th>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">1</td>
+<td class=3D"confluenceTd"><p>see list of Hotels from HotelBeds API</p></td=
+>
+<td class=3D"confluenceTd"><p>User should be able to request a list of hote=
+l properties by <strong>countries, destinations within that country, listin=
+g size</strong>. The response should combine related data and display them =
+in json. <a href=3D"https://smartdevllc.atlassian.net/browse/NMP0-1" data-c=
+ard-appearance=3D"inline" class=3D"external-link" rel=3D"nofollow">https://=
+smartdevllc.atlassian.net/browse/NMP0-1</a></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"status-macro aui-lozenge aui-l=
+ozenge-error">HIGH</span></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">2</td>
+<td class=3D"confluenceTd"><p>See all available travel destinations</p></td=
+>
+<td class=3D"confluenceTd"><p>User should be able to see all travel destina=
+tions data within USA and Mexico, along with their specific codes</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">3</td>
+<td class=3D"confluenceTd"><p>See a specific destination details</p></td>
+<td class=3D"confluenceTd"><p>User should be able to look up details of one=
+ specific travel destination, within USA or Mexico, </p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">4</td>
+<td class=3D"confluenceTd"><p>Search travel destination by country states</=
+p></td>
+<td class=3D"confluenceTd"><p>User should be able to filter a list of trave=
+l destinations by country states within USA and Mexico </p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">5</td>
+<td class=3D"confluenceTd"><p>Search hotels info </p></td>
+<td class=3D"confluenceTd"><p>User should be able to filter a list of Hotel=
+ listing data by specific destinations, including tourist zone groups withi=
+n that destination, tourist zone within that zone group</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">6</td>
+<td class=3D"confluenceTd"><p>get single hotel detailed info</p></td>
+<td class=3D"confluenceTd"><p>User should be able to get hotel related info=
+rmation by hotel code, including all room types</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">7</td>
+<td class=3D"confluenceTd"><p>get single hotel availability</p></td>
+<td class=3D"confluenceTd"><p>User should be able to get all booking data r=
+elated to a specific hotel establishment, including price, available rooms,=
+ available dates, all related accommodations. </p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">8</td>
+<td class=3D"confluenceTd"><p>organize single hotel info in Shopify product=
+ format</p></td>
+<td class=3D"confluenceTd"><p>User should be able to get the correctly form=
+atted data of a single hotel listing </p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">9</td>
+<td class=3D"confluenceTd"><p>import single hotel listing</p></td>
+<td class=3D"confluenceTd"><p>User should be able to make POST request to S=
+hopify Product API and successfully add a product listing to Shopify Admin =
+</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">10</td>
+<td class=3D"confluenceTd"><p>import multiple hotel listing</p></td>
+<td class=3D"confluenceTd"><p>User should be able to perform bulk operation=
+ to add multiple hotel listings to Shopify Admin</p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"HotelSourcingApplication(MockProjectfor.NETCorepractice)-Userinte=
+ractionanddesign">User interaction and design</h2>
+<p></p>
+<h2 id=3D"HotelSourcingApplication(MockProjectfor.NETCorepractice)-OpenQues=
+tions">Open Questions</h2>
+<div class=3D"table-wrap">
+<table data-layout=3D"full-width" data-local-id=3D"35d75ee2-477b-4864-a806-=
+b45a8002540b" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 705.0px;">
+<col style=3D"width: 904.0px;">
+<col style=3D"width: 191.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>Question</p></th>
+<th class=3D"confluenceTh"><p>Answer</p></th>
+<th class=3D"confluenceTh"><p>Date Answered</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>can I take a look at the storefront?</p></td>
+<td class=3D"confluenceTd"><p>Sure, here=E2=80=99s the link to One Centrici=
+ty storefront, (password: blohff)</p><p><a href=3D"https://onecentricity.co=
+m/" data-card-appearance=3D"inline" class=3D"external-link" rel=3D"nofollow=
+">https://onecentricity.com/</a> </p></td>
+<td class=3D"confluenceTd"><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id=3D"HotelSourcingApplication(MockProjectfor.NETCorepractice)-OutofSco=
+pe">Out of Scope</h2>
+<p></p>
+<ul>
+<li><p>Booking Process (BookingAPI)</p></li>
+<li><p>Cache Data</p></li>
+<li><p>Feedback and Review API</p></li>
+</ul>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_294_2131825226.1646564693765--
