@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-25T16:59:42.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="tp2B-5M39TWmp0vO_iq_" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-25T17:59:23.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ZfHKqGA9LduGFr5G75A3" version="20.3.6" type="github">
   <diagram id="fk6RSbhf1oOtL5F_ngLM" name="Page-1">
-    <mxGraphModel dx="2881" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="4405" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -329,7 +329,7 @@
           <mxGeometry y="78" width="230" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wXCwBSlz0Bj3EVBaTpSY-112" value="RoleService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="665" y="1000" width="160" height="170" as="geometry" />
+          <mxGeometry x="665" y="1000" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="wXCwBSlz0Bj3EVBaTpSY-113" value="+ UserRole: entity model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wXCwBSlz0Bj3EVBaTpSY-112" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -341,10 +341,10 @@
           <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wXCwBSlz0Bj3EVBaTpSY-116" value="+ RevokeRole(Role): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="wXCwBSlz0Bj3EVBaTpSY-112" vertex="1">
-          <mxGeometry y="90" width="160" height="40" as="geometry" />
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SObMIP7K1Swj9B55eqTQ-1" value="+ UpdateRole(Role): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wXCwBSlz0Bj3EVBaTpSY-112">
-          <mxGeometry y="130" width="160" height="40" as="geometry" />
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wXCwBSlz0Bj3EVBaTpSY-117" value="AddForm-ViewModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="940" y="1000" width="160" height="86" as="geometry" />
@@ -571,6 +571,23 @@
               <mxPoint x="550" y="1780" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="SObMIP7K1Swj9B55eqTQ-29" value="«SQL Transaction»&lt;br&gt;&lt;b&gt;Wrap each Data-Access operation &lt;br&gt;into a transaction&lt;/b&gt;" style="html=1;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1336" width="220" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="SObMIP7K1Swj9B55eqTQ-30" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="SObMIP7K1Swj9B55eqTQ-29">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SObMIP7K1Swj9B55eqTQ-31" value="Logging ???" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1376" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SObMIP7K1Swj9B55eqTQ-32" value="ORM Setup" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="1270" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SObMIP7K1Swj9B55eqTQ-33" value="Authoriztion/Authentication???" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1278" width="200" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
