@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Page-1" id="9c096ad6-e400-ecc8-3e38-643d2caac077">
-    <mxGraphModel dx="1369" dy="2010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -19,10 +19,10 @@
         <mxCell id="e3i8lb2qf0uO69dVtqz0-64" value="Public website" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="e3i8lb2qf0uO69dVtqz0-35" vertex="1">
           <mxGeometry x="70" y="240" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CC6keT1DGDDNWCiZmxZs-1" value="Client application" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CC6keT1DGDDNWCiZmxZs-1" value="Flutter Client" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="478" y="-1040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CC6keT1DGDDNWCiZmxZs-2" value="live API server&lt;div&gt;(Azure App Service)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="CC6keT1DGDDNWCiZmxZs-2" value="BeepSuperApp-&lt;div&gt;Wallet Domain&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="758" y="-1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CC6keT1DGDDNWCiZmxZs-3" value="PDF-Exporter Microservice" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -73,52 +73,14 @@
         <mxCell id="CC6keT1DGDDNWCiZmxZs-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="1093" y="-910" width="10" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="CC6keT1DGDDNWCiZmxZs-14" value="POST /Trip/itinerary-export" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" target="CC6keT1DGDDNWCiZmxZs-10" edge="1">
+        <mxCell id="CC6keT1DGDDNWCiZmxZs-14" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="1" target="CC6keT1DGDDNWCiZmxZs-10" edge="1">
           <mxGeometry x="0.0017" width="60" relative="1" as="geometry">
             <mxPoint x="543" y="-930" as="sourcePoint" />
             <mxPoint x="808" y="-930" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CC6keT1DGDDNWCiZmxZs-15" value="Validate payload" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="CC6keT1DGDDNWCiZmxZs-10" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="833" y="-900.45" as="sourcePoint" />
-            <mxPoint x="1088" y="-900" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CC6keT1DGDDNWCiZmxZs-16" value="Valid input" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="CC6keT1DGDDNWCiZmxZs-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1098" y="-880" as="sourcePoint" />
-            <mxPoint x="828" y="-880" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CC6keT1DGDDNWCiZmxZs-17" value="Convert Markdown input to HTML" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="CC6keT1DGDDNWCiZmxZs-12" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="823" y="-845.31" as="sourcePoint" />
-            <mxPoint x="903" y="-845.31" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CC6keT1DGDDNWCiZmxZs-18" value="HTML-encoding text" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="CC6keT1DGDDNWCiZmxZs-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1093" y="-820" as="sourcePoint" />
-            <mxPoint x="1013" y="-820" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CC6keT1DGDDNWCiZmxZs-19" value="Generate PDF from HTML" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" target="CC6keT1DGDDNWCiZmxZs-12" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="823" y="-790" as="sourcePoint" />
-            <mxPoint x="903" y="-790" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CC6keT1DGDDNWCiZmxZs-20" value="PDF byte stream" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="CC6keT1DGDDNWCiZmxZs-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1093" y="-760" as="sourcePoint" />
-            <mxPoint x="1013" y="-760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CC6keT1DGDDNWCiZmxZs-21" value="PDF file stream (ContentType=&#39;application/pdf&#39;)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="CC6keT1DGDDNWCiZmxZs-8" edge="1">
+        <mxCell id="CC6keT1DGDDNWCiZmxZs-21" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="CC6keT1DGDDNWCiZmxZs-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="813" y="-740" as="sourcePoint" />
             <mxPoint x="733" y="-740" as="targetPoint" />
